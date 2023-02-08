@@ -1,0 +1,48 @@
+h1 {
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+button {
+    border: #fff 0.15rem solid;
+    background-color: #222;
+    color: #fff;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 9rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 0;
+}
+
+input {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    background-color: #dde;
+    color: #000;
+    transition: .2s;
+}
+
+input::placeholder {
+    color: #444;
+}
+
+input:focus {
+    background-color: #eef;
+}
+
+@media (max-width: 375px) {
+    input {
+        width: 9rem;
+    }
+}

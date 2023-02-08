@@ -1,0 +1,13 @@
+.movies {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.movies>div {
+    overflow-x: scroll;
+}
+
+.movies>div::-webkit-scrollbar {
+    display: none;
+}

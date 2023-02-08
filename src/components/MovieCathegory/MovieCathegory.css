@@ -1,0 +1,24 @@
+h2 {
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.moviesCathegory {
+    display: flex;
+    overflow-x: scroll;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.moviesCathegory::-webkit-scrollbar {
+    height: 1rem;
+}
+
+.moviesCathegory::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.moviesCathegory::-webkit-scrollbar-thumb {
+    background: #778;
+    border-radius: 0.1rem;
+}
