@@ -14,7 +14,7 @@ Utilicé la API de TMDB (The Movie Database) junto con React para desarrollar la
 - axios (La utilicé para hacer las peticiones a la API).
 
 ## Cómo utilizarla
-- Clonar el repositorio con "git clone [nombreDelRepositorio]".
+- Clonar el repositorio con "git clone [urlDelRepositorio]".
 - Ejecutar el comando "npm install" en la consola.
 - Ejecutar el comando "npm start" en la consola.
 - Abrir "localhost:3000" en el navegador.
